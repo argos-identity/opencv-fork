@@ -14,7 +14,7 @@ Find out more build options by `-h` switch.
 
 For detailed build tutorial, check out `<opencv_src_dir>/doc/js_tutorials/js_setup/js_setup/js_setup.markdown`.
 
-## Custom build
+## Custom build for ARGOS Identity
 
 1. 기본적인 절차는 아래 문서를 따릅니다.
    - https://docs.opencv.org/4.10.0/d4/da1/tutorial_js_setup.html
@@ -33,6 +33,6 @@ For detailed build tutorial, check out `<opencv_src_dir>/doc/js_tutorials/js_set
      - https://emscripten.org/docs/tools_reference/settings_reference.html?highlight=es6#wasm-async-compilation
      - https://github.com/TechStark/opencv-js/blob/main/.github/workflows/build-opencv.yml#L40
      - ~~`--build_wasm --build_flags="-s WASM_ASYNC_COMPILATION=0 "` (마지막에 공백이 있어야 cmake 옵션이 정상적으로 만들어졌음)~~
-4. Build CLI
+4. Build & copy
    - `emcmake python3 ./platforms/js/build_js.py build_js_{version} --build_wasm`
-   - `cp build_js_{version}/bin/opencv.js ../opencv-js-custom/dist`
+   - `cp build_js_{version}/bin/opencv.js {path_to_opencv-js-custom}/dist`
