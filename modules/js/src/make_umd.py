@@ -103,7 +103,7 @@ def make_umd(opencvjs, cvjs):
 }(this, function () {
   %s
   if (typeof Module === 'undefined')
-    Module = {};
+    var Module = {};
   return cv(Module);
 }));
         """ % (content)).lstrip().encode('utf-8'))
