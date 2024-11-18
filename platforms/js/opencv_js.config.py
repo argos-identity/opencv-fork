@@ -4,7 +4,7 @@ core = {
     '': [
 #         'absdiff',
 #         'add',
-#         'addWeighted',
+        'addWeighted',
 #         'bitwise_and',
 #         'bitwise_not',
 #         'bitwise_or',
@@ -66,8 +66,8 @@ core = {
 
 imgproc = {
     '': [
-#         'Canny',
-#         'GaussianBlur',
+        'Canny',
+        'GaussianBlur',
         'Laplacian',
 #         'HoughLines',
 #         'HoughLinesP',
@@ -77,7 +77,7 @@ imgproc = {
 #         'adaptiveThreshold',
 #         'approxPolyDP',
 #         'arcLength',
-#         'bilateralFilter',
+        'bilateralFilter',
 #         'blur',
 #         'boundingRect',
 #         'boxFilter',
@@ -104,7 +104,7 @@ imgproc = {
 #         'ellipse2Poly',
 #         'equalizeHist',
 #         'erode',
-#         'filter2D',
+        'filter2D',
 #         'findContours',
 #         'fitEllipse',
 #         'fitLine',
