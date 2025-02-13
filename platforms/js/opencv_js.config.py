@@ -77,7 +77,7 @@ imgproc = {
 #         'adaptiveThreshold',
 #         'approxPolyDP',
 #         'arcLength',
-#         'bilateralFilter',
+        'bilateralFilter',
 #         'blur',
 #         'boundingRect',
 #         'boxFilter',
