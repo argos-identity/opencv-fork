@@ -61,7 +61,7 @@ core = {
 #         'getLogLevel',
 #         'LUT',
     ],
-#     'Algorithm': [],
+    'Algorithm': [],
 }
 
 imgproc = {
@@ -92,7 +92,7 @@ imgproc = {
 #         'convexityDefects',
 #         'cornerHarris',
 #         'cornerMinEigenVal',
-#         'createCLAHE',
+        'createCLAHE',
 #         'createLineSegmentDetector',
         'cvtColor',
 #         'demosaicing',
@@ -145,7 +145,7 @@ imgproc = {
 #         'fillConvexPoly',
 #         'polylines',
     ],
-#     'CLAHE': ['apply', 'collectGarbage', 'getClipLimit', 'getTilesGridSize', 'setClipLimit', 'setTilesGridSize'],
+    'CLAHE': ['apply', 'collectGarbage', 'getClipLimit', 'getTilesGridSize', 'setClipLimit', 'setTilesGridSize'],
 #     'segmentation_IntelligentScissorsMB': [
 #         'IntelligentScissorsMB',
 #         'setWeights',
