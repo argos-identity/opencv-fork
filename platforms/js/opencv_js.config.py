@@ -3,7 +3,7 @@
 core = {
     '': [
 #         'absdiff',
-#         'add',
+        'add',
 #         'addWeighted',
 #         'bitwise_and',
 #         'bitwise_not',
@@ -126,7 +126,7 @@ imgproc = {
 #         'minAreaRect',
 #         'minEnclosingCircle',
 #         'moments',
-#         'morphologyEx',
+        'morphologyEx',
 #         'pointPolygonTest',
 #         'putText',
 #         'pyrDown',
