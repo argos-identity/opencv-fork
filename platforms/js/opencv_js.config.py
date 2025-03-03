@@ -2,7 +2,7 @@
 
 core = {
     '': [
-#         'absdiff',
+        'absdiff',
         'add',
 #         'addWeighted',
 #         'bitwise_and',
